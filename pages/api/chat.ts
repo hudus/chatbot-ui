@@ -43,7 +43,7 @@ const handler = async (req: Request): Promise<Response> => {
     } else if (
       model.id === 'gpt-4' ||
       model.id === 'gpt-4-32k' ||
-      model.id === 'gpt-4-1106-preview'
+      model.id === 'gpt-4-turbo-preview'
     ) {
       tokens_per_message = 4;
     }
